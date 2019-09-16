@@ -4,6 +4,10 @@ def valid_move?(board, index)
   if position_taken == true
      true
 
+   elsif board[index] < 1 || board[index] > 9
+     false
+     
+
 else
      false
   end
